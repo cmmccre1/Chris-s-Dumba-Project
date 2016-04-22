@@ -66,7 +66,6 @@ class Player:
 	def __init__(self):
 		self.handValue = 0;
 		self.money = 200;
-		decksize = 0;
 		random.seed();
 		
 		
