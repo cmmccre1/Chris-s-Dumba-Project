@@ -90,7 +90,7 @@ class Player:
 	def draw(self):
 		drawInt = random.randint(2,11)
 		card_drawn = False;
-		while(not (card_drawn) and (decksize > 0):
+		while(not (card_drawn) and (decksize > 0)):
 			if(drawInt == 2):
 				if(twos.size() > 0):
 					self.addCard(twos.pop());
