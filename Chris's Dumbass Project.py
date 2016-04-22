@@ -195,7 +195,7 @@ while(decksize > 0):
 				dealer.clearHand();
 				play = False;
 			else:
-				if(dealer.hand() > player.hand()):
+				if(dealer.hand() >= player.hand()):
 					print("Dealer wins!");
 					player.clearHand();
 					play = False;
